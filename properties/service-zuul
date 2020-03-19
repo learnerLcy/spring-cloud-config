@@ -1,7 +1,0 @@
-#配置zuul的路由规则
-zuul.routes.provide-service.path=/provide-service/**
-#zuul.routes.provide-service.url=http://localhost:8901
-zuul.routes..provide-service.service-id=app-provide
-
-zuul.routes.consumer-service.path=/consumer-service/**
-zuul.routes.consumer-service.service-id=app-consumer
